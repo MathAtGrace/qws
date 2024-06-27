@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docinfo>
+
+  <author-biographies length="short" />
+  
+    <blurb shelf="Author/Instructor Help">Numerical literacy from the perspective of Biblical wisdom</blurb>
+
+    <!--
+    If we create a logo, we will put it here:
+    <brandlogo url="http://abstract.pugetsound.edu" source="cover_aata_2014.png" />
+    -->
+
+    <document-id edition="1">qwgrace</document-id>
+
+  <macros>
+    \newcommand{\degree}[0]{^{\circ}}
+    \newcommand{\Ccancel}[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+    \newcommand{\bluetext}[1]{\color{blue}{#1}} <!-- comments in aligned equations -->
+    \delimitershortfall-1sp
+    \newcommand{\abs}[1]{\left|#1\right|}
+    \newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
+    \newcommand{\amp}{&amp;}
+  </macros>
+
+  <latex-image-preamble>
+    \usepackage{tikz, pgfplots}
+    \usetikzlibrary{positioning,matrix,arrows,calc}
+    \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
+    \usetikzlibrary{intersections,through,backgrounds,shapes.geometric}
+    \usetikzlibrary{decorations.markings,decorations.pathreplacing}
+    \usepackage[group-separator={,}]{siunitx}
+    \usepackage{cancel}
+    \usepackage{mathtools}
+  </latex-image-preamble>
+
+  <rename element="exploration">Preview Activity</rename>
+  <rename element="convention">Notation</rename>
+  <rename element="assemblage" xml:lang="en-US">Summary</rename>
+
+  <cross-references text="type-global" />
+</docinfo>
