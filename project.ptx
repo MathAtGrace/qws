@@ -9,7 +9,30 @@
       source = "main.ptx"
       output-dir = "html"
     />
-    <!--add above: xsl = pretext-html.sxl-->
-    <target name="print" format="pdf" />
+    <target
+      name="print"
+      format="pdf"
+    />
+    <target
+      name="web-sol"
+      format="html"
+      publication="publication-solutions.ptx"
+      output-dir = "solutions-html"
+      xsl = "acs-solution-manual.xsl"
+    />
+    <target
+      name="print-sol"
+      format="pdf"
+      publication="publication-solutions.ptx"
+      output-dir = "solutions-pdf"
+      xsl = "acs-solution-manual.xsl"
+    />
+    <target
+      name="workbook"
+      format="pdf"
+      publication="publication-workbook.ptx"
+      output-dir = "workbook-pdf"
+      xsl = "acs-activity-workbook.xsl"
+    />
   </targets>
 </project>

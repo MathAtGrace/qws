@@ -16,7 +16,7 @@
 
 <figure width="100%" xml:id="muana-loa-carbon">
   <image source="models/co2_data_mlo.png" width="100%">
-    <description>Atmospheric <m>\chem{CO_2}</m> at Mauna Loa Observatory from 1958 to 2022</description>
+    <description>Atmospheric <m>\text{CO}_2</m> at Mauna Loa Observatory from 1958 to 2022</description>
   </image>
 </figure>
 
@@ -80,7 +80,7 @@
           Copy and paste a picture of your three models below.  (Look for this button in the upper right hand side)
         </p>
         <image source="models/desmos-share.png" width="50%">
-          <description>highlihts what the <q>share</q> button looks like in Demos</description>
+          <description><p>highlihts what the <q>share</q> button looks like in Demos</p></description>
         </image>
       </statement>
       <solution>
@@ -124,9 +124,7 @@
         <p>
           Now in Desmos, in the equation pane on the left, type in the equation
         </p>
-        <console>
-          <input>x = 2060</input>
-        </console>
+        <p><me>x = 2060</me></p>
         <p>
           This will create a vertical line in the year 2060.  Click on each of the three points where it intersects the 
           scientists' three models.  This should display points whose y-coordinates match your answers to a. b. and c. above.
@@ -140,7 +138,7 @@
           The main goal is for them to see that fitting a model to data usually creates a prediction of the future, and 
           different models can have wildly different predictions. 15 points.
         </p>          
-        <image source="models/desmos-x-is-2060" width="%">
+        <image source="models/desmos-x-is-2060.png" width="70%">
           <description>(for accessibility)</description>
         </image>
       </solution>
@@ -162,7 +160,7 @@
       </statement>
       <solution>
         <p>
-          The <m>\chem{CO_2}</m> increases by about 1.5 (or their <m>a</m>) ppm every year. (3 points)
+          The <m>\text{CO}_2</m> increases by about 1.5 (or their <m>a</m>) ppm every year. (3 points)
         </p>
       </solution>
     </task>
@@ -174,7 +172,7 @@
       </statement>
       <solution>
         <p>
-          The <m>\chem{CO_2}</m> ppm increases exponentially by about 2.2% (or their <m>d \times 100\%</m>) every year. (4 points)
+          The <m>\text{CO}_2</m> ppm increases exponentially by about 2.2% (or their <m>d \times 100\%</m>) every year. (4 points)
         </p>
       </solution>
     </task>
@@ -193,7 +191,7 @@
       </hint>
       <solution>
         <p>
-          The <m>\chem{CO_2}</m> levels repeat periodically every 260 years. (3 points)
+          The <m>\text{CO}_2</m> levels repeat periodically every 260 years. (3 points)
         </p>
       </solution>
     </task>
@@ -247,13 +245,13 @@
   </exercise>
 
   <p>
-    Scientists have only been measuring <m>\chem{CO_2}</m> at Mauna Loa since 1960.  However, scientists are able to drill 
-    ice cores from glaciers to estimate the amount of <m>\chem{CO_2}</m> over the last 1000 years.  On the main graph below, 
+    Scientists have only been measuring <m>\text{CO}_2</m> at Mauna Loa since 1960.  However, scientists are able to drill 
+    ice cores from glaciers to estimate the amount of <m>\text{CO}_2</m> over the last 1000 years.  On the main graph below, 
     the red, solid line is the Mauna Loa data, and the black line is the data from ice cores of a glacier in Antartica.
   </p>
 
   <figure width="100%" xml:id="fig-ice-cores">
-    <image source="models/ice-cores.png" width="%">
+    <image source="models/ice-cores.png" width="70%">
       <description>CO2 measurements from ice cores from Law Dome since 1000 AD.</description>
     </image>
     <caption>D.M. Etheridge, L.P. Steele, R.L. Langenfelds, R.J. Francey, J.-M. Barnola and V.I. Morgan. 1998. 
@@ -347,7 +345,7 @@
       <hint>
         <p>
           Think about how they are measured.  The main source for temperature is tree ring data.  Is it as easy to tell the
-          temperature from tree rings as it is to measure <m>\chem{CO_2}</m> trapped in layers of a glacier?
+          temperature from tree rings as it is to measure <m>\text{CO}_2</m> trapped in layers of a glacier?
         </p>
       </hint>
       <solution>

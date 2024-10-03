@@ -708,7 +708,7 @@
                     <cell><m>15</m></cell></row>
             </tabular></sidebyside>
             <p><m>L(t) = 3 + 1.5t</m></p>
-            <sidebyside width="40%"><image source="models/fig-ans-4-1-69.jpg"><description>linear and exponential</description></image> </sidebyside></li>
+            </li>
     <li><sidebyside>
             <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center"><col halign="left"/><col/><col/><col/><col/><col/>
                 <row>
