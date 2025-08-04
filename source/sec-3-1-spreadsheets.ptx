@@ -249,7 +249,7 @@
           enough money saved in order to go.  Set up your spreadsheet so that it matches the 
           picture below.
         </p>
-        <image source="gracie_budget.png" width="100%"/>
+        <image source="gracie_budget.PNG" width="100%"/>
       </statement>
     </task>
     <task xml:id="task-budget-3">
@@ -363,10 +363,10 @@
       </ul>
     </p>
     <p>
-      For example, for question 1,
+      For example, for question 1, we input the formula (image below left) and put a box around the answer (image below right).
     </p>
     <sidebyside widths="45% 45%" margins="auto" valign="middle">
-      <image source="appendix/q1a.png" width="100%">
+      <image source="appendix/q1a.PNG" width="100%">
         <description>Example answer to question 1 using formula <c>=4/7</c></description>
       </image>
       <image source="appendix/q1b.PNG" width="100%">
@@ -376,11 +376,11 @@
     <p>
       Videos showing how to export spreadsheets to PDF from Google Sheets, Microsoft Excel, and Apple Numbers, respectively.
     </p>
-    <!--<sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
+    <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
       <video youtube="xqvyKxHZDgA?t" start="9"/>
       <video youtube="qCV7j12KIF4"/>
       <video youtube="40pQhIspxOA"/>        
-    </sidebyside>-->
+    </sidebyside>
   </introduction>
 
   <exercise>
